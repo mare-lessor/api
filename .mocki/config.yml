@@ -4,6 +4,6 @@ endpoints:
   - path: /hello
     method: get
     responses:
-      - type: json
+      - statusCode: 200
         body:
-           message: Hello World!
+          message: Hello from Mocki!
