@@ -9,10 +9,4 @@ endpoints:
                 id: 8db57b8f-be09-4e07-a1f6-4fb77d9b16e7
                 name: Machete
         schema: |
-            type Query {
-              getUser(id: String): User
-            }
-            type User {
-              id: String
-              name: String
-            }
+            {"__validationErrors":[],"_queryType":"Query","_mutationType":"Mutation","_subscriptionType":null,"_directives":[],"_typeMap":{"Query":"Query","UpdateTodoInput":"UpdateTodoInput","User":"User","Todo":"Todo","Int":"Int","String":"String","Float":"Float","Boolean":"Boolean","Mutation":"Mutation","__Schema":"__Schema","__Type":"__Type","__TypeKind":"__TypeKind","__Field":"__Field","__InputValue":"__InputValue","__EnumValue":"__EnumValue","__Directive":"__Directive","__DirectiveLocation":"__DirectiveLocation"},"_subTypeMap":{},"_implementationsMap":{}}
