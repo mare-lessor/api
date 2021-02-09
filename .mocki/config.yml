@@ -1,7 +1,7 @@
 name: mocki
 port: 3000
 endpoints:
-  - path: hello
+  - path: /hello
     method: get
     responses:
       - type: json
