@@ -1,10 +1,9 @@
 name: mocki
 port: 3000
 endpoints:
-    - path: "/graphql"
-      method: post
-      graphql:
-        mocks:
-            User:
-                id: 8db57b8f-be09-4e07-a1f6-4fb77d9b16e7
-                name: Machete
+  - path: hello
+    method: get
+    responses:
+      - type: json
+        body:
+           message: Hello World!
